@@ -26,10 +26,6 @@ public class Restaurant {
     }
 
     private void updateStars(){
-        //create variable to store sum
-        //loop over reviews and add stars
-        //divide sum by number of reviews
-        //update star
         int total = 0;
         for (int i = 0; i < reviews.size(); i++){
             total += reviews.get(i).stars;
